@@ -35,7 +35,7 @@ function Carousel() {
         <div className="w-full max-w-lg   backdrop-blur-md shadow-xl overflow-hidden ">
           <Swiper
             modules={[Autoplay]}
-            slidesPerView={3}
+            slidesPerView={2.5}
             loop={true}
             speed={10000} // durasi geser (semakin besar = semakin halus)
             autoplay={{

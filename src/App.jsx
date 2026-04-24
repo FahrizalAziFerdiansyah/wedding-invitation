@@ -3,6 +3,7 @@ import "./App.css";
 import gsap from "gsap";
 import "swiper/css";
 import "swiper/css/autoplay";
+import "yet-another-react-lightbox/styles.css";
 
 import { Bg, Image10 } from "./assets/images";
 import Intro from "./sections/Intro";
@@ -11,6 +12,8 @@ import Event from "./sections/Event";
 import Gallery from "./sections/Gallery";
 import Carousel from "./sections/Carousel";
 import OurStory from "./sections/OurStory";
+import RSVP from "./sections/RSVP";
+import Footer from "./sections/Footer";
 
 function App() {
   const titleRef = useRef(null);
@@ -48,6 +51,8 @@ function App() {
       <Event />
       <OurStory />
       <Gallery />
+      <RSVP />
+      <Footer />
     </div>
   );
 }
